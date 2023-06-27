@@ -25,7 +25,17 @@ p {
 /* ==================COMPONENTS================== */
 
 .visually-hidden {
-  display: none;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 .list {
   list-style: none;
@@ -97,8 +107,7 @@ p {
 }
 .menu {
   display: flex;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  gap: 40px;
 }
 .main-nav {
   display: flex;
@@ -109,8 +118,8 @@ p {
   display: flex;
 }
 
-.menu-item:not(:last-child) {
-  margin-right: 40px;
+.menu-item {
+  padding: 24px 0;
 }
 .menu-link {
   font-weight: 500;
@@ -268,7 +277,7 @@ p {
   color: var(--primiry-color-navy);
 
   margin-top: 0;
-  margin-bottom: 8;
+  margin-bottom: 8px;
 }
 .team-cards-text {
   font-weight: 400;
