@@ -78,6 +78,9 @@ p {
   text-transform: uppercase;
 
   color: var(--specialy-color);
+
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .header-logo {
   color: var(--primiry-color-navy);
@@ -152,6 +155,9 @@ p {
   letter-spacing: 0.02em;
 
   color: var(--secondary-text-color);
+
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .contact-link:hover,
 .contact-link:focus {
