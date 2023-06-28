@@ -123,6 +123,7 @@ p {
   padding-bottom: 24px;
 }
 .menu-link {
+  display: block;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -245,11 +246,17 @@ p {
 /* ==================/FEATURES================== */
 
 /* ==================ABOUT US================== */
+.about-section {
+  padding-top: 0;
+}
 .images-list {
   display: flex;
 }
 .images-list-item:not(:last-child) {
   margin-right: 24px;
+}
+.about-image {
+  margin-bottom: 0;
 }
 
 /* ==================/ABOUT US================== */
@@ -289,8 +296,8 @@ p {
 
   color: var(--secondary-text-color);
 
-  margin-top: 0px;
-  margin-bottom: 32px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .team-cards-desc {
