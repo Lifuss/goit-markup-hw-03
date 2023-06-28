@@ -90,7 +90,6 @@ p {
 }
 .image {
   display: block;
-  margin-bottom: 32px;
 }
 
 /* ==================/COMPONENTS================== */
@@ -261,10 +260,6 @@ p {
 .images-list-item:not(:last-child) {
   margin-right: 24px;
 }
-.about-image {
-  margin-bottom: 0;
-}
-
 /* ==================/ABOUT US================== */
 /* ==================OUR TEAM================== */
 .team-cards {
@@ -387,9 +382,7 @@ p {
 .galery-link {
   text-decoration: none;
 }
-.galery-img {
-  margin-bottom: 0;
-}
+
 .image-title {
   font-weight: 500;
   font-size: 20px;
